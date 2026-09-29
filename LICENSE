@@ -1,4 +1,4 @@
-# LX-VOXEL Source License 1.1
+# LX-VOXEL Source License 1.2
 
 Copyright © 2026 Kelvin Eller. All rights reserved.
 
@@ -124,35 +124,45 @@ Where a Streaming Service has:
 
 the operator must obtain an **LX-VOXEL Medium Streaming License**.
 
-The published price for LX-VOXEL Source License 1.0 is:
+The published price for LX-VOXEL Source License 1.2 is:
 
 **€10,000 EUR per year.**
 
+The Medium Streaming License is intended to provide a low-friction commercial path for substantial deployments that have not yet reached Large Streaming scale.
+
 ### 5.3 Large Streaming License
 
-Where a Streaming Service has:
+A Streaming Service becomes subject to the **LX-VOXEL Large Streaming License** once it reaches or exceeds:
 
-**15,000,000 or more Monthly LX-VOXEL Streaming Users,**
+**15,000,000 Monthly LX-VOXEL Streaming Users**
 
-the operator must obtain an **LX-VOXEL Large Streaming License**.
+during any calendar month.
 
-The published price for LX-VOXEL Source License 1.0 is:
+The published price for LX-VOXEL Source License 1.2 is:
 
-**€50,000 EUR per year.**
+**€10,000 EUR per month.**
 
-### 5.4 Measurement
+Once the Large Streaming threshold has been reached, the Streaming Service shall remain classified as a Large Streaming Service for a minimum period of **twelve (12) consecutive months**, regardless of ordinary fluctuations in Monthly LX-VOXEL Streaming Users during that period.
 
-The applicable streaming tier is determined by the highest number of Monthly LX-VOXEL Streaming Users recorded during the applicable annual license period.
+After the initial twelve-month Large Streaming period, the Streaming Service may qualify for reclassification to the Medium Streaming License only where its average Monthly LX-VOXEL Streaming Users during the preceding three complete calendar months is below 15,000,000.
+
+Temporary, seasonal, technical, geographic, promotional, rollout-related, or ordinary fluctuations below the Large Streaming threshold do not automatically terminate or reduce the Large Streaming License obligation.
+
+A Streaming Service that is reclassified below the Large Streaming tier and subsequently again reaches or exceeds 15,000,000 Monthly LX-VOXEL Streaming Users begins a new twelve-month Large Streaming License period.
+
+### 5.4 Measurement and Qualification
+
+For Free and Medium Streaming Use, the applicable tier is determined using Monthly LX-VOXEL Streaming Users as defined in Section 1.
 
 A Streaming Service may conduct a reasonable technical trial, beta test, or staged deployment without immediately becoming subject to a paid Streaming License, provided that the deployment remains below 1,000,000 Monthly LX-VOXEL Streaming Users.
 
 Once a Streaming Service reaches or exceeds 1,000,000 Monthly LX-VOXEL Streaming Users, the operator must obtain the applicable Streaming License within 60 days.
 
-### 5.5 No Per-Stream Royalty
+For avoidance of doubt, the Large Streaming classification rules in Section 5.3 control once the 15,000,000-user threshold has been reached.
 
-The Streaming License is a fixed annual license.
+### 5.5 No Usage-Based Royalty
 
-Unless separately agreed in writing, there is:
+Except for the fixed Medium and Large Streaming License fees described above, there is:
 
 a. no per-stream royalty;
 
@@ -165,6 +175,8 @@ d. no per-byte royalty;
 e. no revenue share; and
 
 f. no additional charge based solely on the quantity of LX-VOXEL encoded content transmitted.
+
+The Large Streaming License is billed as a fixed monthly license during the applicable Large Streaming classification period.
 
 ### 5.6 Scope of Streaming License
 
@@ -182,31 +194,11 @@ d. the right to commercially resell LX-VOXEL as a Standalone Codec Product; or
 
 e. rights outside those otherwise granted by this License.
 
-### 5.7 Enterprise Agreements
+### 5.7 Enterprise Agreements for Streaming Services
 
-The Licensor and a Streaming Service may separately agree in writing to alternative commercial terms, including:
+A Streaming Service may request an LX-VOXEL Enterprise License or Enterprise Agreement under Section 18A for custom implementation, integration, support, service-level commitments, custom commercial terms, or other enterprise requirements.
 
-a. multi-year licenses;
-
-b. technical support;
-
-c. integration assistance;
-
-d. service-level commitments;
-
-e. custom encoder development;
-
-f. performance optimization;
-
-g. hardware implementation support;
-
-h. certification;
-
-i. extended rights; or
-
-j. other enterprise requirements.
-
-Such an agreement may replace the standard pricing or terms of this Section for the contracting party.
+An Enterprise Agreement may replace the standard pricing or terms of this Section only where the Licensor and the applicable Streaming Service expressly agree to that replacement in writing.
 
 ---
 
@@ -308,7 +300,7 @@ The contributor represents that they have sufficient rights to grant the permiss
 
 To the extent that the Licensor owns patent claims necessarily infringed solely by use of the Software as provided by the Licensor, the Licensor grants You a worldwide, non-exclusive patent license solely to the extent necessary to exercise the rights expressly granted under this License.
 
-The patent license granted under this Section is royalty-free except where the relevant activity constitutes paid Large-Scale Streaming Use under Section 5.
+The patent license granted under this Section is royalty-free except where the relevant activity constitutes paid Streaming Use under Section 5.
 
 This patent license does not grant rights to:
 
@@ -402,9 +394,9 @@ Nothing in this License excludes or limits liability where such exclusion or lim
 
 ## 15. Compliance and Records for Paid Streaming Use
 
-A Streaming Service subject to Section 5 must maintain records reasonably sufficient to determine its applicable LX-VOXEL Streaming License tier.
+A Streaming Service subject to Section 5 must maintain records reasonably sufficient to determine its applicable LX-VOXEL Streaming License tier and, where applicable, the beginning and duration of a Large Streaming classification period.
 
-The Licensor may request written confirmation of the approximate number of Monthly LX-VOXEL Streaming Users no more than once per calendar year unless there is a reasonable basis to believe that a material licensing violation has occurred.
+The Licensor may request written confirmation of the approximate number of Monthly LX-VOXEL Streaming Users and the information reasonably necessary to verify the applicable tier no more than once per calendar year unless there is a reasonable basis to believe that a material licensing violation has occurred.
 
 Nothing in this Section requires disclosure of personally identifiable end-user information.
 
@@ -453,6 +445,81 @@ e. licensing future versions under different terms; or
 f. granting additional permissions to particular parties.
 
 Any separately executed written agreement controls over conflicting provisions of this License with respect to the parties and subject matter covered by that agreement.
+
+---
+
+## 18A. LX-VOXEL Enterprise License
+
+The Licensor may offer a separate **LX-VOXEL Enterprise License** to companies, institutions, organizations, or other legal entities requiring custom implementation, integration, support, rights, or commercial terms beyond the standard permissions provided by this License.
+
+The Enterprise License is not limited to Streaming Services and may be relevant to, among others:
+
+a. operating-system vendors;
+
+b. hardware manufacturers;
+
+c. semiconductor, DSP, SoC, and embedded-system vendors;
+
+d. cloud, media, broadcast, communications, and infrastructure providers;
+
+e. software vendors;
+
+f. automotive or consumer-electronics manufacturers;
+
+g. research institutions;
+
+h. large-scale media platforms; and
+
+i. other organizations requiring custom LX-VOXEL deployment or engineering.
+
+Enterprise arrangements may include, without limitation:
+
+a. custom LX-VOXEL encoder or decoder implementations;
+
+b. platform-specific ports;
+
+c. SIMD, GPU, DSP, FPGA, ASIC, SoC, embedded, or hardware optimization;
+
+d. integration assistance;
+
+e. custom APIs, libraries, SDKs, or build configurations;
+
+f. private development branches or pre-release builds;
+
+g. performance and quality optimization;
+
+h. interoperability and conformance work;
+
+i. security or robustness reviews;
+
+j. certification or validation services;
+
+k. priority technical support;
+
+l. service-level commitments;
+
+m. long-term maintenance commitments;
+
+n. custom licensing terms;
+
+o. expanded redistribution or deployment rights;
+
+p. engineering, consulting, or research services; and
+
+q. other requirements agreed in writing.
+
+**Enterprise License pricing is available on request and is negotiated individually based on scope, engineering requirements, support obligations, deployment scale, and requested rights.**
+
+The availability of an Enterprise License does not make Enterprise licensing mandatory merely because an organization is large.
+
+A company may continue to use LX-VOXEL under the standard terms of this License where its use is fully permitted by those terms and it does not require additional rights, services, support, or custom contractual commitments.
+
+For Streaming Services, the standard Streaming License obligations in Section 5 continue to apply unless a written Enterprise Agreement expressly replaces or modifies them.
+
+An Enterprise License may include paid development or support services without restricting the general availability of the standard LX-VOXEL source code under this License.
+
+Nothing in an Enterprise Agreement transfers ownership of the LX-VOXEL project, source code, trademarks, or underlying intellectual property unless expressly agreed in writing.
+
 
 ---
 
@@ -518,14 +585,24 @@ The intended licensing model is:
 **€10,000/year Medium Streaming License:**
 - 1,000,000 to fewer than 15,000,000 Monthly LX-VOXEL Streaming Users.
 
-**€50,000/year Large Streaming License:**
-- 15,000,000 or more Monthly LX-VOXEL Streaming Users.
+**€10,000/month Large Streaming License:**
+- triggered when a Streaming Service reaches 15,000,000 or more Monthly LX-VOXEL Streaming Users;
+- remains in effect for a minimum of 12 consecutive months after qualification;
+- may be reclassified after that period only where the preceding three-month average is below 15,000,000 Monthly LX-VOXEL Streaming Users.
 
-There are no standard per-stream, per-song, per-minute, or revenue-share royalties.
+**Enterprise License — pricing on request:**
+- available to Streaming Services and non-streaming organizations;
+- intended for custom implementations, platform ports, hardware/DSP optimization, integration assistance, priority support, SLAs, private builds, custom rights, consulting, research, certification, or other enterprise requirements;
+- optional unless a use requires rights not otherwise granted by this License;
+- may replace standard Streaming License terms only by express written agreement.
+
+There are no standard per-stream, per-song, per-minute, per-byte, or revenue-share royalties.
 
 The purpose of the Streaming License is to allow broad and low-friction adoption of LX-VOXEL while requiring large-scale commercial streaming deployments to financially support the continued development, maintenance, and ecosystem of LX-VOXEL.
 
+The purpose of the Enterprise License is to allow organizations with specialized technical or commercial requirements to directly fund custom engineering, integration, support, maintenance, and professional development of the LX-VOXEL ecosystem.
+
 ---
 
-**LX-VOXEL Source License 1.1**  
+**LX-VOXEL Source License 1.2**  
 **Copyright © 2026 Kelvin Eller. All rights reserved.**

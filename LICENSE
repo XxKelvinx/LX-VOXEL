@@ -1,4 +1,4 @@
-# LX-VOXEL Source License 1.0
+# LX-VOXEL Source License 1.1
 
 Copyright © 2026 Kelvin Eller. All rights reserved.
 
@@ -18,9 +18,19 @@ For the purposes of this License:
 
 **“Standalone Codec Product”** means any codec, codec library, SDK, software package, API, service, command-line tool, transcoding product, or substantially equivalent offering whose primary purpose or commercial value consists of providing the functionality of the Software or a Modified Version.
 
+**“Streaming Service”** means an online service that transmits or makes available audio content to end users through live streaming, on-demand streaming, personalized streaming, internet radio, cloud-based playback, or substantially equivalent network delivery.
+
+**“LX-VOXEL Streaming User”** means a unique end user who, during a calendar month, is actually delivered, offered, or served audio encoded using LX-VOXEL through a Streaming Service.
+
+Users who do not receive LX-VOXEL encoded audio are not LX-VOXEL Streaming Users for the purposes of this License.
+
+**“Monthly LX-VOXEL Streaming Users”** means the number of unique LX-VOXEL Streaming Users during a calendar month.
+
+---
+
 ## 2. License Grant
 
-Subject to compliance with this License, the Licensor grants You a worldwide, non-exclusive, royalty-free license to:
+Subject to compliance with this License, the Licensor grants You a worldwide, non-exclusive license to:
 
 a. use and run the Software for private, educational, academic, research, evaluation, and commercial purposes;
 
@@ -30,11 +40,19 @@ c. modify the Software for Your own use;
 
 d. compile and distribute the Software in binary or source form as part of an Integrated Product;
 
-e. use the Software in commercial products and services; and
+e. use the Software in commercial products and services;
 
-f. distribute Modified Versions as part of an Integrated Product, subject to the restrictions of this License.
+f. distribute Modified Versions as part of an Integrated Product, subject to the restrictions of this License;
+
+g. implement LX-VOXEL encoding and decoding functionality in media players, applications, operating systems, games, content-creation tools, broadcasting software, hardware devices, embedded products, and similar Integrated Products; and
+
+h. use LX-VOXEL in a Streaming Service subject to Section 5.
+
+Except for Large-Scale Streaming Use described in Section 5 and the prohibited redistribution described in Section 4, these rights are granted royalty-free.
 
 Commercial use of LX-VOXEL as a component of a larger product is expressly permitted.
+
+---
 
 ## 3. Redistribution
 
@@ -44,9 +62,13 @@ a. this License and all existing copyright notices are retained;
 
 b. recipients are informed that LX-VOXEL or software derived from LX-VOXEL is included;
 
-c. You do not represent a Modified Version as an official version of LX-VOXEL; and
+c. You do not represent a Modified Version as an official version of LX-VOXEL;
 
-d. the redistribution does not violate Section 4.
+d. the redistribution does not violate Section 4; and
+
+e. redistribution does not remove obligations that apply to a Streaming Service under Section 5.
+
+---
 
 ## 4. Prohibited Commercial Redistribution
 
@@ -60,15 +82,135 @@ c. rebrand, rename, fork, port, wrap, or modify the Software and commercially of
 
 d. offer the Software or a Modified Version as a paid codec SDK, codec library, codec API, encoding or decoding service, transcoding service, or substantially equivalent commercial offering;
 
-e. charge customers primarily for access to the Software or its codec functionality;
+e. charge customers primarily for access to the Software or its codec functionality; or
 
 f. use cosmetic, organizational, interface-level, build-system, or minor technical modifications to circumvent the restrictions of this Section.
 
 The restrictions in this Section do not prohibit charging money for an Integrated Product merely because that Integrated Product contains or uses LX-VOXEL.
 
-For example, subject to the other terms of this License, LX-VOXEL may be incorporated into and distributed with a commercial game, media player, audio workstation, operating system, hardware device, streaming application, editing application, or other substantially broader product.
+For example, subject to the other terms of this License, LX-VOXEL may be incorporated into and distributed with a commercial game, media player, audio workstation, operating system, hardware device, streaming application, editing application, broadcasting application, or other substantially broader product.
 
-## 5. Modified Versions
+A media player, application, operating system, game, hardware product, or other Integrated Product does not become a Standalone Codec Product merely because it contains LX-VOXEL encoding or decoding functionality.
+
+---
+
+## 5. Streaming Services
+
+### 5.1 Free Streaming Use
+
+A Streaming Service may use LX-VOXEL without payment of a streaming license fee where the Streaming Service has fewer than:
+
+**1,000,000 Monthly LX-VOXEL Streaming Users.**
+
+This permission applies to commercial and non-commercial Streaming Services.
+
+No streaming license fee is required merely because:
+
+a. a service supports LX-VOXEL decoding;
+
+b. a service supports uploading or downloading LX-VOXEL files;
+
+c. LX-VOXEL is used internally for testing, development, archival, evaluation, research, or quality comparison;
+
+d. a service has more than 1,000,000 total users but fewer than 1,000,000 Monthly LX-VOXEL Streaming Users; or
+
+e. LX-VOXEL support exists in software distributed to users but LX-VOXEL encoded audio is not delivered by the Streaming Service itself.
+
+### 5.2 Medium Streaming License
+
+Where a Streaming Service has:
+
+**1,000,000 or more, but fewer than 15,000,000 Monthly LX-VOXEL Streaming Users,**
+
+the operator must obtain an **LX-VOXEL Medium Streaming License**.
+
+The published price for LX-VOXEL Source License 1.0 is:
+
+**€10,000 EUR per year.**
+
+### 5.3 Large Streaming License
+
+Where a Streaming Service has:
+
+**15,000,000 or more Monthly LX-VOXEL Streaming Users,**
+
+the operator must obtain an **LX-VOXEL Large Streaming License**.
+
+The published price for LX-VOXEL Source License 1.0 is:
+
+**€50,000 EUR per year.**
+
+### 5.4 Measurement
+
+The applicable streaming tier is determined by the highest number of Monthly LX-VOXEL Streaming Users recorded during the applicable annual license period.
+
+A Streaming Service may conduct a reasonable technical trial, beta test, or staged deployment without immediately becoming subject to a paid Streaming License, provided that the deployment remains below 1,000,000 Monthly LX-VOXEL Streaming Users.
+
+Once a Streaming Service reaches or exceeds 1,000,000 Monthly LX-VOXEL Streaming Users, the operator must obtain the applicable Streaming License within 60 days.
+
+### 5.5 No Per-Stream Royalty
+
+The Streaming License is a fixed annual license.
+
+Unless separately agreed in writing, there is:
+
+a. no per-stream royalty;
+
+b. no per-minute royalty;
+
+c. no per-song royalty;
+
+d. no per-byte royalty;
+
+e. no revenue share; and
+
+f. no additional charge based solely on the quantity of LX-VOXEL encoded content transmitted.
+
+### 5.6 Scope of Streaming License
+
+Payment of the applicable Streaming License permits the licensed Streaming Service to use LX-VOXEL for its covered streaming operations during the applicable license period, subject to the remaining terms of this License.
+
+Unless separately agreed, the Streaming License does not grant:
+
+a. ownership of LX-VOXEL;
+
+b. exclusive rights;
+
+c. trademark ownership;
+
+d. the right to commercially resell LX-VOXEL as a Standalone Codec Product; or
+
+e. rights outside those otherwise granted by this License.
+
+### 5.7 Enterprise Agreements
+
+The Licensor and a Streaming Service may separately agree in writing to alternative commercial terms, including:
+
+a. multi-year licenses;
+
+b. technical support;
+
+c. integration assistance;
+
+d. service-level commitments;
+
+e. custom encoder development;
+
+f. performance optimization;
+
+g. hardware implementation support;
+
+h. certification;
+
+i. extended rights; or
+
+j. other enterprise requirements.
+
+Such an agreement may replace the standard pricing or terms of this Section for the contracting party.
+
+---
+
+## 6. Modified Versions
 
 You may create Modified Versions.
 
@@ -78,13 +220,19 @@ a. clearly state that they are modified from LX-VOXEL;
 
 b. not imply endorsement, approval, certification, or authorship by the Licensor;
 
-c. preserve applicable copyright and attribution notices; and
+c. preserve applicable copyright and attribution notices;
 
-d. remain subject to the restrictions contained in Section 4.
+d. remain subject to the restrictions contained in Section 4; and
+
+e. remain subject to the Streaming Service requirements in Section 5 where applicable.
 
 You may use a different name for a Modified Version, but changing the name does not remove or reduce the obligations imposed by this License.
 
-## 6. Copyright and Attribution
+Modification, reimplementation, porting, wrapping, optimization, or renaming of the Software does not by itself remove obligations arising from use of the Software under this License.
+
+---
+
+## 7. Copyright and Attribution
 
 Copyright in the original LX-VOXEL Software remains with its respective copyright holder.
 
@@ -96,7 +244,11 @@ Except where technically unreasonable, distributions containing the Software mus
 
 Additional copyright notices belonging to other lawful contributors must also be preserved where applicable.
 
-## 7. Trademarks and Project Identity
+Attribution does not imply endorsement by the Licensor.
+
+---
+
+## 8. Trademarks and Project Identity
 
 This License does not grant permission to use the names:
 
@@ -118,9 +270,11 @@ or
 
 are permitted.
 
-No trademark rights are granted except as necessary for such factual attribution.
+No trademark rights are granted except as necessary for factual attribution.
 
-## 8. Contributions
+---
+
+## 9. Contributions
 
 Unless a separate written Contributor License Agreement applies, any person intentionally submitting source code, documentation, patches, improvements, or other material for inclusion in the official LX-VOXEL project grants the Licensor a perpetual, worldwide, irrevocable, non-exclusive, royalty-free license to:
 
@@ -148,8 +302,230 @@ The contributor retains any copyright they hold in their original Contribution u
 
 The contributor represents that they have sufficient rights to grant the permissions described above.
 
-## 9. Patent License
+---
 
-To the extent that the Licensor owns patent claims necessarily infringed solely by use of the Software as provided by the Licensor, the Licensor grants You a worldwide, non-exclusive, royalty-free patent license solely to use those patent claims as necessary to exercise the rights expressly granted under this License.
+## 10. Patent License
 
-This patent license does not grant rights to unrelated
+To the extent that the Licensor owns patent claims necessarily infringed solely by use of the Software as provided by the Licensor, the Licensor grants You a worldwide, non-exclusive patent license solely to the extent necessary to exercise the rights expressly granted under this License.
+
+The patent license granted under this Section is royalty-free except where the relevant activity constitutes paid Large-Scale Streaming Use under Section 5.
+
+This patent license does not grant rights to:
+
+a. patent claims unrelated to LX-VOXEL;
+
+b. technologies merely used alongside LX-VOXEL;
+
+c. third-party patents;
+
+d. combinations where infringement results from technology not supplied by the Licensor; or
+
+e. activities prohibited by this License.
+
+If You initiate patent litigation alleging that the Software, LX-VOXEL, or a contribution incorporated into LX-VOXEL infringes a patent owned or controlled by You, any patent license granted to You under this Section terminates upon filing of that claim, to the extent permitted by applicable law.
+
+Nothing in this License represents or warrants that LX-VOXEL is free from third-party patent rights.
+
+---
+
+## 11. Independent Implementations
+
+This License governs the Software and rights granted by the Licensor in relation to the Software.
+
+Nothing in this License should be interpreted as granting rights the Licensor does not legally possess.
+
+Where an independent implementation does not copy or derive from copyright-protected portions of the Software, copyright obligations may differ.
+
+Any patent, trademark, contractual, specification, certification, or other rights applicable to independent implementations are separate from copyright in the Software and are governed by applicable law and any relevant separate agreement.
+
+---
+
+## 12. No Requirement to Publish Modifications
+
+Unless otherwise agreed in writing, You are not required to publish the source code of Your modifications merely because You use LX-VOXEL.
+
+You may maintain private or proprietary modifications.
+
+Where a Modified Version is redistributed, the attribution and redistribution requirements of this License continue to apply.
+
+---
+
+## 13. No Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF:
+
+a. MERCHANTABILITY;
+
+b. FITNESS FOR A PARTICULAR PURPOSE;
+
+c. TITLE;
+
+d. NON-INFRINGEMENT;
+
+e. ACCURACY;
+
+f. RELIABILITY;
+
+g. COMPATIBILITY; and
+
+h. PERFORMANCE.
+
+THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, SECURE, UNINTERRUPTED, SUITABLE FOR ANY PARTICULAR APPLICATION, OR FREE FROM THIRD-PARTY INTELLECTUAL PROPERTY CLAIMS.
+
+---
+
+## 14. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM OR RELATING TO THE SOFTWARE OR THIS LICENSE.
+
+THIS INCLUDES, WITHOUT LIMITATION:
+
+a. LOSS OF PROFITS;
+
+b. LOSS OF REVENUE;
+
+c. LOSS OF DATA;
+
+d. LOSS OF BUSINESS;
+
+e. LOSS OF GOODWILL;
+
+f. SERVICE INTERRUPTION; or
+
+g. COSTS OF SUBSTITUTE PRODUCTS OR SERVICES.
+
+Nothing in this License excludes or limits liability where such exclusion or limitation is prohibited by applicable law.
+
+---
+
+## 15. Compliance and Records for Paid Streaming Use
+
+A Streaming Service subject to Section 5 must maintain records reasonably sufficient to determine its applicable LX-VOXEL Streaming License tier.
+
+The Licensor may request written confirmation of the approximate number of Monthly LX-VOXEL Streaming Users no more than once per calendar year unless there is a reasonable basis to believe that a material licensing violation has occurred.
+
+Nothing in this Section requires disclosure of personally identifiable end-user information.
+
+Aggregate usage figures are sufficient.
+
+---
+
+## 16. Termination
+
+Your rights under this License terminate automatically if You materially violate its terms and fail to cure the violation within 30 days after receiving written notice of the violation.
+
+Where the violation consists solely of unintentionally exceeding a Streaming License threshold, the violation may be cured by obtaining the applicable license and paying any amount that became due.
+
+Upon termination, You must cease exercising rights granted under this License except to the extent required by applicable law or separately authorized in writing by the Licensor.
+
+Sections concerning ownership, attribution, trademarks, contributions, patents, warranty, liability, governing law, and obligations accrued before termination survive termination where legally applicable.
+
+The Licensor may reinstate terminated rights in writing.
+
+---
+
+## 17. No Endorsement
+
+Use of LX-VOXEL does not imply endorsement, sponsorship, certification, partnership, or approval by the Licensor.
+
+Likewise, the existence of a Streaming License does not by itself permit a licensee to describe itself as an official partner of LX-VOXEL.
+
+---
+
+## 18. Separate Commercial Agreements
+
+The Licensor may offer separate licenses containing additional or alternative rights.
+
+Nothing in this License prevents the Licensor from:
+
+a. commercially licensing the Software;
+
+b. entering into private agreements;
+
+c. offering support or consulting;
+
+d. offering alternative licensing terms;
+
+e. licensing future versions under different terms; or
+
+f. granting additional permissions to particular parties.
+
+Any separately executed written agreement controls over conflicting provisions of this License with respect to the parties and subject matter covered by that agreement.
+
+---
+
+## 19. Future Versions of LX-VOXEL
+
+This License applies to the version of the Software distributed under it.
+
+The Licensor may release future versions of LX-VOXEL under revised or different license terms.
+
+Unless expressly stated otherwise, revised licensing terms do not retroactively alter rights already granted for copies of the Software previously distributed under this License.
+
+---
+
+## 20. Severability
+
+If any provision of this License is held invalid, illegal, or unenforceable, the remaining provisions shall remain in effect to the maximum extent permitted by applicable law.
+
+An invalid provision shall, where legally permissible, be interpreted or reduced only to the minimum extent necessary to make it enforceable while preserving its intended purpose as closely as possible.
+
+---
+
+## 21. Governing Law
+
+Unless superseded by mandatory applicable law or a separate written agreement, this License shall be governed by the laws of the Federal Republic of Germany, excluding its conflict-of-law rules and excluding the United Nations Convention on Contracts for the International Sale of Goods.
+
+Any mandatory consumer protection or other statutory rights remain unaffected.
+
+---
+
+## 22. Entire License
+
+This License constitutes the complete standard license governing the Software unless a separate written agreement between You and the Licensor applies.
+
+Headings and examples are provided for clarity and do not independently expand or restrict the substantive provisions of this License.
+
+---
+
+## 23. Summary of Intended Use
+
+This Section is explanatory only. If it conflicts with another provision of this License, the substantive provisions above control.
+
+The intended licensing model is:
+
+**Free:**
+- personal use;
+- education;
+- academic research;
+- commercial applications;
+- media players;
+- games;
+- operating systems;
+- audio workstations;
+- broadcasting applications;
+- OBS-style applications;
+- hardware devices;
+- local encoding and decoding;
+- commercial applications containing LX-VOXEL;
+- open-source and source-available projects;
+- internal testing;
+- codec evaluation;
+- Streaming Services with fewer than 1,000,000 Monthly LX-VOXEL Streaming Users.
+
+**€10,000/year Medium Streaming License:**
+- 1,000,000 to fewer than 15,000,000 Monthly LX-VOXEL Streaming Users.
+
+**€50,000/year Large Streaming License:**
+- 15,000,000 or more Monthly LX-VOXEL Streaming Users.
+
+There are no standard per-stream, per-song, per-minute, or revenue-share royalties.
+
+The purpose of the Streaming License is to allow broad and low-friction adoption of LX-VOXEL while requiring large-scale commercial streaming deployments to financially support the continued development, maintenance, and ecosystem of LX-VOXEL.
+
+---
+
+**LX-VOXEL Source License 1.0**  
+**Copyright © 2026 Kelvin Eller. All rights reserved.**

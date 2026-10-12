@@ -1,0 +1,16 @@
+build/
+cmake-build-*/
+.vscode/
+.idea/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pcm
+*.f32
+*.vox
+*.flac
+__pycache__/
+*.pyc

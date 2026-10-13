@@ -1,4 +1,4 @@
-# LX-VOXEL
+![LX-VOXEL](logo.png)
 
 ## Introduction
 
